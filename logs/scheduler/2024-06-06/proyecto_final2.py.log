@@ -1,0 +1,247 @@
+[2024-06-06 17:42:56,003] {processor.py:153} INFO - Started process (PID=187) to work on /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:42:56,035] {processor.py:641} INFO - Processing file /opt/airflow/dags/proyecto_final2.py for tasks to queue
+[2024-06-06 17:42:56,055] {logging_mixin.py:115} INFO - [2024-06-06 17:42:56,055] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:43:26,440] {logging_mixin.py:115} INFO - [2024-06-06 17:43:26,439] {timeout.py:67} ERROR - Process timed out, PID: 187
+[2024-06-06 17:43:26,538] {logging_mixin.py:115} INFO - [2024-06-06 17:43:26,478] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/proyecto_final2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/proyecto_final2.py", line 4, in <module>
+    subprocess.run(["pip", "install", "python-dotenv"])
+  File "/usr/local/lib/python3.7/subprocess.py", line 490, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 956, in communicate
+    self.wait()
+  File "/usr/local/lib/python3.7/subprocess.py", line 1019, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1653, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1611, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/proyecto_final2.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#reducing-dag-complexity, PID: 187
+[2024-06-06 17:43:26,539] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:43:26,611] {processor.py:161} INFO - Processing /opt/airflow/dags/proyecto_final2.py took 30.632 seconds
+[2024-06-06 17:43:37,538] {processor.py:153} INFO - Started process (PID=217) to work on /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:43:37,540] {processor.py:641} INFO - Processing file /opt/airflow/dags/proyecto_final2.py for tasks to queue
+[2024-06-06 17:43:37,542] {logging_mixin.py:115} INFO - [2024-06-06 17:43:37,542] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:44:07,562] {logging_mixin.py:115} INFO - [2024-06-06 17:44:07,561] {timeout.py:67} ERROR - Process timed out, PID: 217
+[2024-06-06 17:44:07,645] {logging_mixin.py:115} INFO - [2024-06-06 17:44:07,601] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/proyecto_final2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/proyecto_final2.py", line 14, in <module>
+    from entrega.script import enviar_alerta_temperatura, enviar_alerta_volumen, etl_extraccion, etl_transformacion, etl_carga
+  File "/opt/airflow/dags/entrega/script.py", line 5, in <module>
+    subprocess.run(["pip", "install", "python-dotenv"])
+  File "/usr/local/lib/python3.7/subprocess.py", line 490, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 956, in communicate
+    self.wait()
+  File "/usr/local/lib/python3.7/subprocess.py", line 1019, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1653, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1611, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/proyecto_final2.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#reducing-dag-complexity, PID: 217
+[2024-06-06 17:44:07,646] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:44:07,696] {processor.py:161} INFO - Processing /opt/airflow/dags/proyecto_final2.py took 30.174 seconds
+[2024-06-06 17:44:18,240] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:44:18,254] {processor.py:641} INFO - Processing file /opt/airflow/dags/proyecto_final2.py for tasks to queue
+[2024-06-06 17:44:18,264] {logging_mixin.py:115} INFO - [2024-06-06 17:44:18,263] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:44:48,289] {logging_mixin.py:115} INFO - [2024-06-06 17:44:48,289] {timeout.py:67} ERROR - Process timed out, PID: 255
+[2024-06-06 17:44:48,312] {logging_mixin.py:115} INFO - [2024-06-06 17:44:48,306] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/proyecto_final2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/proyecto_final2.py", line 4, in <module>
+    subprocess.run(["pip", "install", "python-dotenv"])
+  File "/usr/local/lib/python3.7/subprocess.py", line 490, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 956, in communicate
+    self.wait()
+  File "/usr/local/lib/python3.7/subprocess.py", line 1019, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1653, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1611, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/proyecto_final2.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#reducing-dag-complexity, PID: 255
+[2024-06-06 17:44:48,313] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:44:48,404] {processor.py:161} INFO - Processing /opt/airflow/dags/proyecto_final2.py took 30.204 seconds
+[2024-06-06 17:45:01,388] {processor.py:153} INFO - Started process (PID=286) to work on /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:45:01,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/proyecto_final2.py for tasks to queue
+[2024-06-06 17:45:01,390] {logging_mixin.py:115} INFO - [2024-06-06 17:45:01,390] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:45:31,404] {logging_mixin.py:115} INFO - [2024-06-06 17:45:31,403] {timeout.py:67} ERROR - Process timed out, PID: 286
+[2024-06-06 17:45:31,491] {logging_mixin.py:115} INFO - [2024-06-06 17:45:31,415] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/proyecto_final2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/proyecto_final2.py", line 14, in <module>
+    from entrega.script import enviar_alerta_temperatura, enviar_alerta_volumen, etl_extraccion, etl_transformacion, etl_carga
+  File "/opt/airflow/dags/entrega/script.py", line 5, in <module>
+    subprocess.run(["pip", "install", "python-dotenv"])
+  File "/usr/local/lib/python3.7/subprocess.py", line 490, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 956, in communicate
+    self.wait()
+  File "/usr/local/lib/python3.7/subprocess.py", line 1019, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1653, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1611, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/proyecto_final2.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#reducing-dag-complexity, PID: 286
+[2024-06-06 17:45:31,493] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:45:31,559] {processor.py:161} INFO - Processing /opt/airflow/dags/proyecto_final2.py took 30.184 seconds
+[2024-06-06 17:45:50,583] {processor.py:153} INFO - Started process (PID=321) to work on /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:45:50,584] {processor.py:641} INFO - Processing file /opt/airflow/dags/proyecto_final2.py for tasks to queue
+[2024-06-06 17:45:50,585] {logging_mixin.py:115} INFO - [2024-06-06 17:45:50,585] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:46:20,592] {logging_mixin.py:115} INFO - [2024-06-06 17:46:20,592] {timeout.py:67} ERROR - Process timed out, PID: 321
+[2024-06-06 17:46:20,603] {logging_mixin.py:115} INFO - [2024-06-06 17:46:20,594] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/proyecto_final2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/proyecto_final2.py", line 6, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/__init__.py", line 15, in <module>
+    from pandas.compat.numpy import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py", line 7, in <module>
+    from pandas.util.version import Version
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/__init__.py", line 1, in <module>
+    from pandas.util._decorators import (  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/proyecto_final2.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#reducing-dag-complexity, PID: 321
+[2024-06-06 17:46:20,604] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:46:20,658] {processor.py:161} INFO - Processing /opt/airflow/dags/proyecto_final2.py took 30.088 seconds
+[2024-06-06 17:46:30,730] {processor.py:153} INFO - Started process (PID=352) to work on /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:46:30,732] {processor.py:641} INFO - Processing file /opt/airflow/dags/proyecto_final2.py for tasks to queue
+[2024-06-06 17:46:30,734] {logging_mixin.py:115} INFO - [2024-06-06 17:46:30,734] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:47:00,753] {logging_mixin.py:115} INFO - [2024-06-06 17:47:00,752] {timeout.py:67} ERROR - Process timed out, PID: 352
+[2024-06-06 17:47:00,819] {logging_mixin.py:115} INFO - [2024-06-06 17:47:00,775] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/proyecto_final2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/proyecto_final2.py", line 4, in <module>
+    subprocess.run(["pip", "install", "python-dotenv"])
+  File "/usr/local/lib/python3.7/subprocess.py", line 490, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 956, in communicate
+    self.wait()
+  File "/usr/local/lib/python3.7/subprocess.py", line 1019, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1653, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1611, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/proyecto_final2.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#reducing-dag-complexity, PID: 352
+[2024-06-06 17:47:00,820] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:47:00,893] {processor.py:161} INFO - Processing /opt/airflow/dags/proyecto_final2.py took 30.182 seconds
+[2024-06-06 17:47:21,166] {processor.py:153} INFO - Started process (PID=382) to work on /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:47:21,168] {processor.py:641} INFO - Processing file /opt/airflow/dags/proyecto_final2.py for tasks to queue
+[2024-06-06 17:47:21,169] {logging_mixin.py:115} INFO - [2024-06-06 17:47:21,169] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:47:51,181] {logging_mixin.py:115} INFO - [2024-06-06 17:47:51,181] {timeout.py:67} ERROR - Process timed out, PID: 382
+[2024-06-06 17:47:51,200] {logging_mixin.py:115} INFO - [2024-06-06 17:47:51,193] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/proyecto_final2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/proyecto_final2.py", line 4, in <module>
+    subprocess.run(["pip", "install", "python-dotenv"])
+  File "/usr/local/lib/python3.7/subprocess.py", line 490, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 956, in communicate
+    self.wait()
+  File "/usr/local/lib/python3.7/subprocess.py", line 1019, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1653, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1611, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/proyecto_final2.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#reducing-dag-complexity, PID: 382
+[2024-06-06 17:47:51,201] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:47:51,257] {processor.py:161} INFO - Processing /opt/airflow/dags/proyecto_final2.py took 30.101 seconds
+[2024-06-06 17:48:01,818] {processor.py:153} INFO - Started process (PID=413) to work on /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:48:01,820] {processor.py:641} INFO - Processing file /opt/airflow/dags/proyecto_final2.py for tasks to queue
+[2024-06-06 17:48:01,822] {logging_mixin.py:115} INFO - [2024-06-06 17:48:01,822] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:48:31,871] {logging_mixin.py:115} INFO - [2024-06-06 17:48:31,870] {timeout.py:67} ERROR - Process timed out, PID: 413
+[2024-06-06 17:48:31,886] {logging_mixin.py:115} INFO - [2024-06-06 17:48:31,882] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/proyecto_final2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/proyecto_final2.py", line 4, in <module>
+  File "/usr/local/lib/python3.7/subprocess.py", line 490, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 956, in communicate
+    self.wait()
+  File "/usr/local/lib/python3.7/subprocess.py", line 1019, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1653, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/local/lib/python3.7/subprocess.py", line 1611, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 68, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/proyecto_final2.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.3.3/best-practices.html#reducing-dag-complexity, PID: 413
+[2024-06-06 17:48:31,888] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/proyecto_final2.py
+[2024-06-06 17:48:31,946] {processor.py:161} INFO - Processing /opt/airflow/dags/proyecto_final2.py took 30.145 seconds

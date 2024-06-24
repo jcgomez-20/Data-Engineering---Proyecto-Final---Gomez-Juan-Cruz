@@ -1,0 +1,528 @@
+[2024-06-06 15:22:11,475] {processor.py:153} INFO - Started process (PID=818) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:22:11,476] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:22:11,478] {logging_mixin.py:115} INFO - [2024-06-06 15:22:11,478] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:22:13,073] {logging_mixin.py:115} INFO - [2024-06-06 15:22:12,986] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:22:13,113] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:22:13,174] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.703 seconds
+[2024-06-06 15:22:23,438] {processor.py:153} INFO - Started process (PID=836) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:22:23,440] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:22:23,440] {logging_mixin.py:115} INFO - [2024-06-06 15:22:23,440] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:22:24,012] {logging_mixin.py:115} INFO - [2024-06-06 15:22:23,999] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:22:24,016] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:22:24,051] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.616 seconds
+[2024-06-06 15:22:34,217] {processor.py:153} INFO - Started process (PID=854) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:22:34,218] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:22:34,220] {logging_mixin.py:115} INFO - [2024-06-06 15:22:34,220] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:22:34,739] {logging_mixin.py:115} INFO - [2024-06-06 15:22:34,727] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:22:34,742] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:22:34,787] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.574 seconds
+[2024-06-06 15:22:44,920] {processor.py:153} INFO - Started process (PID=872) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:22:44,921] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:22:44,922] {logging_mixin.py:115} INFO - [2024-06-06 15:22:44,922] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:22:45,441] {logging_mixin.py:115} INFO - [2024-06-06 15:22:45,434] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:22:45,445] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:22:45,486] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.568 seconds
+[2024-06-06 15:22:55,604] {processor.py:153} INFO - Started process (PID=890) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:22:55,610] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:22:55,611] {logging_mixin.py:115} INFO - [2024-06-06 15:22:55,611] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:22:56,193] {logging_mixin.py:115} INFO - [2024-06-06 15:22:56,186] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:22:56,196] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:22:56,223] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.623 seconds
+[2024-06-06 15:23:06,312] {processor.py:153} INFO - Started process (PID=908) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:23:06,313] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:23:06,314] {logging_mixin.py:115} INFO - [2024-06-06 15:23:06,314] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:23:06,765] {logging_mixin.py:115} INFO - [2024-06-06 15:23:06,757] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:23:06,768] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:23:06,794] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.485 seconds
+[2024-06-06 15:23:17,405] {processor.py:153} INFO - Started process (PID=926) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:23:17,437] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:23:17,442] {logging_mixin.py:115} INFO - [2024-06-06 15:23:17,441] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:23:19,032] {logging_mixin.py:115} INFO - [2024-06-06 15:23:19,017] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:23:19,036] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:23:19,078] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.678 seconds
+[2024-06-06 15:23:29,204] {processor.py:153} INFO - Started process (PID=944) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:23:29,205] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:23:29,206] {logging_mixin.py:115} INFO - [2024-06-06 15:23:29,206] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:23:29,663] {logging_mixin.py:115} INFO - [2024-06-06 15:23:29,653] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:23:29,666] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:23:29,693] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.491 seconds
+[2024-06-06 15:23:40,101] {processor.py:153} INFO - Started process (PID=962) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:23:40,102] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:23:40,103] {logging_mixin.py:115} INFO - [2024-06-06 15:23:40,103] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:23:40,682] {logging_mixin.py:115} INFO - [2024-06-06 15:23:40,669] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:23:40,686] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:23:40,739] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.642 seconds
+[2024-06-06 15:23:51,329] {processor.py:153} INFO - Started process (PID=980) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:23:51,330] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:23:51,332] {logging_mixin.py:115} INFO - [2024-06-06 15:23:51,331] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:23:51,856] {logging_mixin.py:115} INFO - [2024-06-06 15:23:51,846] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:23:51,862] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:23:51,909] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.585 seconds
+[2024-06-06 15:24:02,492] {processor.py:153} INFO - Started process (PID=996) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:24:02,494] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:24:02,496] {logging_mixin.py:115} INFO - [2024-06-06 15:24:02,495] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:24:04,240] {logging_mixin.py:115} INFO - [2024-06-06 15:24:04,228] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:24:04,246] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:24:04,282] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.795 seconds
+[2024-06-06 15:24:15,139] {processor.py:153} INFO - Started process (PID=1016) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:24:15,142] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:24:15,144] {logging_mixin.py:115} INFO - [2024-06-06 15:24:15,144] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:24:15,741] {logging_mixin.py:115} INFO - [2024-06-06 15:24:15,730] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:24:15,747] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:24:15,794] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.658 seconds
+[2024-06-06 15:24:25,957] {processor.py:153} INFO - Started process (PID=1034) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:24:25,960] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:24:25,968] {logging_mixin.py:115} INFO - [2024-06-06 15:24:25,968] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:24:27,075] {logging_mixin.py:115} INFO - [2024-06-06 15:24:27,064] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:24:27,082] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:24:27,122] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.171 seconds
+[2024-06-06 15:24:37,315] {processor.py:153} INFO - Started process (PID=1052) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:24:37,316] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:24:37,318] {logging_mixin.py:115} INFO - [2024-06-06 15:24:37,317] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:24:38,097] {logging_mixin.py:115} INFO - [2024-06-06 15:24:38,084] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:24:38,100] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:24:38,127] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.816 seconds
+[2024-06-06 15:24:48,324] {processor.py:153} INFO - Started process (PID=1070) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:24:48,326] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:24:48,328] {logging_mixin.py:115} INFO - [2024-06-06 15:24:48,327] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:24:49,176] {logging_mixin.py:115} INFO - [2024-06-06 15:24:49,147] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:24:49,182] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:24:49,222] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.902 seconds
+[2024-06-06 15:24:59,653] {processor.py:153} INFO - Started process (PID=1088) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:24:59,654] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:24:59,655] {logging_mixin.py:115} INFO - [2024-06-06 15:24:59,655] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:25:00,378] {logging_mixin.py:115} INFO - [2024-06-06 15:25:00,365] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:25:00,381] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:25:00,444] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.795 seconds
+[2024-06-06 15:25:11,382] {processor.py:153} INFO - Started process (PID=1106) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:25:11,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:25:11,385] {logging_mixin.py:115} INFO - [2024-06-06 15:25:11,385] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:25:11,846] {logging_mixin.py:115} INFO - [2024-06-06 15:25:11,835] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:25:11,850] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:25:11,893] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.513 seconds
+[2024-06-06 15:25:22,524] {processor.py:153} INFO - Started process (PID=1124) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:25:22,525] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:25:22,527] {logging_mixin.py:115} INFO - [2024-06-06 15:25:22,527] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:25:23,637] {logging_mixin.py:115} INFO - [2024-06-06 15:25:23,625] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:25:23,641] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:25:23,677] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.157 seconds
+[2024-06-06 15:25:34,646] {processor.py:153} INFO - Started process (PID=1142) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:25:34,647] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:25:34,647] {logging_mixin.py:115} INFO - [2024-06-06 15:25:34,647] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:25:35,146] {logging_mixin.py:115} INFO - [2024-06-06 15:25:35,139] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:25:35,149] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:25:35,173] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.530 seconds
+[2024-06-06 15:25:45,395] {processor.py:153} INFO - Started process (PID=1160) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:25:45,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:25:45,401] {logging_mixin.py:115} INFO - [2024-06-06 15:25:45,401] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:25:46,711] {logging_mixin.py:115} INFO - [2024-06-06 15:25:46,696] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:25:46,714] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:25:46,753] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.364 seconds
+[2024-06-06 15:25:57,024] {processor.py:153} INFO - Started process (PID=1178) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:25:57,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:25:57,028] {logging_mixin.py:115} INFO - [2024-06-06 15:25:57,028] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:25:58,177] {logging_mixin.py:115} INFO - [2024-06-06 15:25:58,164] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:25:58,182] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:25:58,240] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.229 seconds
+[2024-06-06 15:26:08,921] {processor.py:153} INFO - Started process (PID=1196) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:26:08,927] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:26:08,929] {logging_mixin.py:115} INFO - [2024-06-06 15:26:08,929] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:26:09,854] {logging_mixin.py:115} INFO - [2024-06-06 15:26:09,836] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:26:09,859] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:26:09,913] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.995 seconds
+[2024-06-06 15:26:20,397] {processor.py:153} INFO - Started process (PID=1214) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:26:20,398] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:26:20,400] {logging_mixin.py:115} INFO - [2024-06-06 15:26:20,400] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:26:21,166] {logging_mixin.py:115} INFO - [2024-06-06 15:26:21,148] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:26:21,170] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:26:21,207] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.814 seconds
+[2024-06-06 15:26:31,367] {processor.py:153} INFO - Started process (PID=1232) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:26:31,368] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:26:31,369] {logging_mixin.py:115} INFO - [2024-06-06 15:26:31,369] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:26:31,890] {logging_mixin.py:115} INFO - [2024-06-06 15:26:31,880] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:26:31,892] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:26:31,916] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.553 seconds
+[2024-06-06 15:26:42,127] {processor.py:153} INFO - Started process (PID=1250) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:26:42,128] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:26:42,130] {logging_mixin.py:115} INFO - [2024-06-06 15:26:42,130] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:26:42,995] {logging_mixin.py:115} INFO - [2024-06-06 15:26:42,934] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:26:43,007] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:26:43,101] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.978 seconds
+[2024-06-06 15:26:53,666] {processor.py:153} INFO - Started process (PID=1268) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:26:53,667] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:26:53,669] {logging_mixin.py:115} INFO - [2024-06-06 15:26:53,669] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:26:54,771] {logging_mixin.py:115} INFO - [2024-06-06 15:26:54,758] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:26:54,775] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:26:54,829] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.175 seconds
+[2024-06-06 15:27:05,256] {processor.py:153} INFO - Started process (PID=1286) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:27:05,257] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:27:05,271] {logging_mixin.py:115} INFO - [2024-06-06 15:27:05,271] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:27:07,107] {logging_mixin.py:115} INFO - [2024-06-06 15:27:07,087] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:27:07,114] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:27:07,182] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.930 seconds
+[2024-06-06 15:27:18,079] {processor.py:153} INFO - Started process (PID=1302) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:27:18,082] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:27:18,088] {logging_mixin.py:115} INFO - [2024-06-06 15:27:18,088] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:27:21,726] {logging_mixin.py:115} INFO - [2024-06-06 15:27:21,584] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:27:21,797] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:27:21,927] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 3.852 seconds
+[2024-06-06 15:27:32,115] {processor.py:153} INFO - Started process (PID=1322) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:27:32,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:27:32,119] {logging_mixin.py:115} INFO - [2024-06-06 15:27:32,119] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:27:32,817] {logging_mixin.py:115} INFO - [2024-06-06 15:27:32,803] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:27:32,822] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:27:32,948] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.837 seconds
+[2024-06-06 15:27:43,033] {processor.py:153} INFO - Started process (PID=1340) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:27:43,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:27:43,039] {logging_mixin.py:115} INFO - [2024-06-06 15:27:43,038] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:27:44,083] {logging_mixin.py:115} INFO - [2024-06-06 15:27:44,073] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:27:44,088] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:27:44,127] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.099 seconds
+[2024-06-06 15:27:54,409] {processor.py:153} INFO - Started process (PID=1358) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:27:54,410] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:27:54,410] {logging_mixin.py:115} INFO - [2024-06-06 15:27:54,410] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:27:54,943] {logging_mixin.py:115} INFO - [2024-06-06 15:27:54,930] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:27:54,947] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:27:54,984] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.579 seconds
+[2024-06-06 15:28:05,777] {processor.py:153} INFO - Started process (PID=1376) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:28:05,777] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:28:05,778] {logging_mixin.py:115} INFO - [2024-06-06 15:28:05,778] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:28:06,750] {logging_mixin.py:115} INFO - [2024-06-06 15:28:06,739] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:28:06,754] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:28:06,782] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 1.009 seconds
+[2024-06-06 15:28:16,948] {processor.py:153} INFO - Started process (PID=1394) to work on /opt/airflow/dags/final.py
+[2024-06-06 15:28:16,950] {processor.py:641} INFO - Processing file /opt/airflow/dags/final.py for tasks to queue
+[2024-06-06 15:28:16,951] {logging_mixin.py:115} INFO - [2024-06-06 15:28:16,951] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/final.py
+[2024-06-06 15:28:17,642] {logging_mixin.py:115} INFO - [2024-06-06 15:28:17,627] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/final.py", line 10, in <module>
+    from entrega.script import *
+  File "/opt/airflow/dags/entrega/script.py", line 10, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-06-06 15:28:17,646] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/final.py
+[2024-06-06 15:28:17,676] {processor.py:161} INFO - Processing /opt/airflow/dags/final.py took 0.731 seconds
