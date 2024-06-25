@@ -14,6 +14,7 @@ Este sería el script principal el cual realiza un proceso ETL para:
 
 3) La carpeta "Module o modulos es basicamente esa carpeta donde tenemos las funciones." : En mi caso es la carpeta entrega
 La carpeta entrega encuentra dentro de la carpeta dags.
+
 Dentro de esta carpeta se encuentra el script.py en el cual se tienen todas las funciones: 
 a)def process_data():
     Función para disminuir el tiempo de espera e intentar solucionar el error
