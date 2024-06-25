@@ -1,0 +1,12 @@
+Documentación para entender el código
+
+1) El pipeline correspondiente a la entrega final se encuentra dentro de la carpeta dag y se llama proyecto_final.py
+Este proyecto tiene como objetivos
+- "llamar" al codigo que esta dentro de la carpeta dag/entrega que se llama script.py
+- se construye el DAG correspondiente a las tareas a ejecutarse en Airflow
+
+2) En el script.py se lleva a cabo todo el proceso correspondiente a las entregas 1,2 y 3
+Este script realiza un proceso ETL para: 
+- Extraer datos climáticos de varias ciudades utilizando la API de HG Brasil
+- Llevar a cabo las transformaciones correspondientes 
+- Cargarlos en una tabla en Redshift.
