@@ -14,8 +14,8 @@ Este sería el script principal el cual realiza un proceso ETL para:
 - Cargarlos en una tabla en Redshift.
 
 
-3) La carpeta "Module o modulos es basicamente esa carpeta donde tenemos las funciones." : En mi caso es la carpeta entrega
-La carpeta entrega encuentra dentro de la carpeta dags.
+3) Para la corrección: "Module o modulos es basicamente esa carpeta donde tenemos las funciones."
+En mi caso es la carpeta entrega. La carpeta entrega encuentra dentro de la carpeta dags.
 
 Dentro de esta carpeta se encuentra el script.py en el cual se tienen todas las funciones: 
 a)def process_data():
