@@ -20,18 +20,15 @@ a)def process_data():
 b)def conectar_redshift():
     Conexión a Redshift utilizando las credenciales definidas.
 c)def crear_tabla_redshift(conn):
-    Verificación de la existencia de la tabla en Redshift.
-    Si no existe --> Creación.
+    Verificación de la existencia de la tabla en Redshift. Si no existe --> Creación.
 d)def extraccion_datos(url):
     Solicitud GET a la URL proporcionada para extraer datos de la API pública.
-    Si la solicitud es exitosa
-    Retorno de los datos en formato JSON
-    Si la solicitud no es exitosa
-    Impresión de error
+    Si la solicitud es exitosa. Retorno de los datos en formato JSON
+    Si la solicitud no es exitosa. Impresión de error
 e)def transformacion_datos(data):
-    Transformación de los datos extraídos de la API pública
-        Eliminación de variables innecesarias.
-        Datos transformados en formato específico.
+    Transformación de los datos extraídos de la API pública. 
+    Eliminación de variables innecesarias. 
+    Datos transformados en formato específico.
 f) def combinar_datos(ciudades_por_pais, datos_transformados):
     Combinación de:
         Datos de la API
