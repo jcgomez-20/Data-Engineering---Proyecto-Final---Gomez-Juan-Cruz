@@ -6,7 +6,7 @@ Este proyecto tiene como objetivos
 - se construye el DAG correspondiente a las tareas a ejecutarse en Airflow
 
 2) En el script.py se lleva a cabo todo el proceso correspondiente a las entregas 1,2 y 3
-Este script realiza un proceso ETL para: 
+Este sería el script principal el cual realiza un proceso ETL para: 
 - Extraer datos climáticos de varias ciudades utilizando la API de HG Brasil
 - Llevar a cabo las transformaciones correspondientes 
 - Cargarlos en una tabla en Redshift.
