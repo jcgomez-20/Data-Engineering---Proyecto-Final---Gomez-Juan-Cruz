@@ -73,4 +73,11 @@ Ubicar dentro de la carpeta dags:
 
 4) En Airflow se ejecutan las tareas de la siguiente manera:
 - Tarea 1. Extraccion: Se extraen los datos desde la API
-- Tarea 2. Transformacion: Se transforman los datos en lo que concierne a los duplicados, valores nulos, eliminacion de variables que no se utilizan 
+- Tarea 2. Transformacion
+	-  Archivo JSON --> DataFrame
+  	-  Se une la informacion de la API con las de las fuentes de datos adicionales
+	-  Se descartan las variables que no interesan
+	-  Se descarta los duplicados y se reemplazan los valores nulos
+ 	-  Se agrega una columna temporal que indica el momento en que se carga el dato
+- Tarea 3. Carga: Se cargan los datos en la base de datos de RedShift
+- Tarea 4. Alertas: Se envían alertas en caso de ser necesario
