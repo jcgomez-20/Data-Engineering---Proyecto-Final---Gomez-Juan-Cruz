@@ -82,4 +82,4 @@ Ubicar dentro de la carpeta dags:
 	-  Se descarta los duplicados y se reemplazan los valores nulos
  	-  Se agrega una columna temporal que indica el momento en que se carga el dato
 - Tarea 3. Carga: Se cargan los datos en la base de datos de RedShift
-- Tarea 4. Alertas: Se envían alertas en caso de ser necesario
+- Tarea 4. Alertas: Se envían alertas via mail en caso de ser necesario
