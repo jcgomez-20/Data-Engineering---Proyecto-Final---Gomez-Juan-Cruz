@@ -1,5 +1,7 @@
 # ETL de Datos Climáticos para Redshift
 
+El script correspondiente a la entrega final se encuentra dentro de *entrega* y se llama **proyecto_final.py**
+
 Este script realiza un proceso ETL para extraer datos climáticos de varias ciudades utilizando la API de HG Brasil, transformarlos y cargarlos en una tabla en Redshift.
 
 ## Configuración
@@ -41,7 +43,7 @@ Se notificará via mail 2 alertas especificadas en el script.
 Carga de datos en el DataWarehouse (Base de datos en RedShift)
 
 PARTE 2.
-- El procedimiento completo de utilizacion de DAGs se puede visualizar en el proyecto_final.py
+- **El procedimiento completo de utilizacion de DAGs se puede visualizar en el proyecto_final.py**
 
 1) "Llamar" al script.py y tomar las funciones necesarias para el empleo de DAGs.
 2) Creación del DAG con sus argumentos
