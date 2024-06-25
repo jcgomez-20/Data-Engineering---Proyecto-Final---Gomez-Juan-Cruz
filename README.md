@@ -70,3 +70,7 @@ Ubicar dentro de la carpeta dags:
 3) localhost:8080
 	a- usuario y contraseña: airflow
 	b- activo el dag y lo ejecuto
+
+4) En Airflow se ejecutan las tareas de la siguiente manera:
+- Tarea 1. Extraccion: Se extraen los datos desde la API
+- Tarea 2. Transformacion: Se transforman los datos en lo que concierne a los duplicados, valores nulos, eliminacion de variables que no se utilizan 
