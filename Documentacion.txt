@@ -3,7 +3,9 @@ Documentación para entender el código
 1) El pipeline correspondiente a la entrega final se encuentra dentro de la carpeta dag y se llama proyecto_final.py
 Este es el pipeline que debería ser ejecutado
 Este proyecto tiene como objetivos:
-- "llamar" al codigo que esta dentro de la carpeta dag/entrega que se llama script.py
+- "llamar" al codigo que esta dentro de la carpeta dag/entrega que se llama script.py.
+Este llamado es una importación de datos de otro script y en el código se ve asi:
+from entrega.script import process_data, enviar_alerta_temperatura, enviar_alerta_volumen, etl_extraccion, etl_transformacion, etl_carga
 - se construye el DAG correspondiente a las tareas a ejecutarse en Airflow
 
 
