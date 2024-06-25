@@ -1,6 +1,8 @@
 # ETL de Datos Climáticos para Redshift
 
-El script correspondiente a la entrega final se encuentra dentro de *entrega* y se llama **proyecto_final.py**
+El script correspondiente a la entrega final se encuentra dentro de la carpeta *dag* y se llama **proyecto_final.py**
+El script  **proyecto_final.py** "llama" al codigo que esta dentro de la carpeta *dag/entrega* y se llama **script.py**
+En el **script.py** se lleva a cabo todo el proceso correspondiente a las entregas 1,2 y 3
 
 Este script realiza un proceso ETL para extraer datos climáticos de varias ciudades utilizando la API de HG Brasil, transformarlos y cargarlos en una tabla en Redshift.
 
